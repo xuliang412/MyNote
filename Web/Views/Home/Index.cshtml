@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/quill.snow.css" rel="stylesheet" />
+<script src="~/Scripts/quill.min.js"></script>
+
+<div id="editor">
+    <p>Hello World!</p>
+    <p>Some initial <strong>bold</strong> text</p>
+    <p><br></p>
+</div>
+
+<script>
+    $(document).ready(function () {
+        ShowQuill();
+    });
+
+    var quill = null;
+    function ShowQuill() {
+        quill = new Quill('#editor', { theme: 'snow' });
+    }
+</script>
+
+
