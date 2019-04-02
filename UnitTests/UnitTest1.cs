@@ -28,7 +28,7 @@ namespace UnitTests
             IocManager.RegisterIocContainer(typeof(BLLWinsorInstaller).Assembly.FullName);
 
             var userService = IocManager.Rosolve<IUserService>();
-            userService.IsUserValidate(new User { UserName = "李四", Password = "123" });
+            userService.IsUserValidate("李四","123");
         }
     }
 }

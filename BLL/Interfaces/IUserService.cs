@@ -11,20 +11,24 @@ namespace BLL.Interfaces
     {
         int UpdateUser(User user);
 
-        int DeleteUserById(string userId);
+        int UpdateUser(string userName,string password);
+
+        int DeleteUserById(int userId);
 
         int DeleteUserByName(string userName);
 
         IEnumerable<User> SelectAllUser();
 
-        User SelectUserById(string userId);
+        User SelectUserById(int userId);
 
         User SelectUserByName(string userName);
 
         int AddUser(User user);
 
+        int AddUser(string userName, string password);
+
         bool IsUserNameExsit(string userName);
 
-        bool IsUserValidate(User user);
+        bool IsUserValidate(string userName, string password);
     }
 }

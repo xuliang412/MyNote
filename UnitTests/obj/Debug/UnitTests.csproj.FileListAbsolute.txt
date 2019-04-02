@@ -10,9 +10,6 @@ C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Microsoft.VisualStudio.Test
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
-C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
 C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.pdb
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Models.dll
@@ -22,7 +19,6 @@ C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\DAL.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\EntityFramework.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\DAL.pdb
-C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\DAL.dll.config
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\EntityFramework.xml
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\BLL.dll
@@ -36,9 +32,7 @@ C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\System.Web.Razor.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\BLL.pdb
-C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\BLL.dll.config
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Web.pdb
-C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Web.dll.config
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Castle.Windsor.xml
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\System.Web.Mvc.xml
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Castle.Core.xml
@@ -51,3 +45,9 @@ C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\zh-Hans\System.Web.WebPages
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
 C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\BLL.dll.config
+C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\DAL.dll.config
+C:\Users\xdl\source\repos\MyNote\UnitTests\bin\Debug\Web.dll.config
+C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\xdl\source\repos\MyNote\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete

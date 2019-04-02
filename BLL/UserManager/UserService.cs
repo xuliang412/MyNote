@@ -33,7 +33,21 @@ namespace BLL.UserManager
             }
         }
 
-        public int DeleteUserById(string userId)
+        public int AddUser(string userName, string password)
+        {
+            try
+            {
+                _db.Users.Add(new User { UserName = userName, Password = password });
+                _db.SaveChanges();
+                return 0;
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
+        public int DeleteUserById(int userId)
         {
             try
             {
@@ -79,7 +93,7 @@ namespace BLL.UserManager
             return _db.Users;
         }
 
-        public User SelectUserById(string userId)
+        public User SelectUserById(int userId)
         {
             return _db.Users.FirstOrDefault(x => x.UserId == userId);
         }
@@ -108,12 +122,30 @@ namespace BLL.UserManager
             }
         }
 
-        public bool IsUserValidate(User user)
+        public int UpdateUser(string userName, string password)
         {
-            User objUser = _db.Users.FirstOrDefault(x => x.UserName == user.UserName);
+            try
+            {
+                User updateUser = _db.Users.FirstOrDefault(x => x.UserName == userName);
+                if (updateUser != null)
+                {
+                    updateUser.Password = password;
+                    _db.SaveChanges();
+                }
+                return 0;
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
+        public bool IsUserValidate(string userName, string password)
+        {
+            User objUser = _db.Users.FirstOrDefault(x => x.UserName == userName);
             if (objUser != null)
             {
-                return user.Password.Equals(objUser.Password);
+                return objUser.Password.Equals(password);
             }
             return false;
         }
